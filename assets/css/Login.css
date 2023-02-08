@@ -1,0 +1,103 @@
+body {
+    background: url("../img/image1.jpg") no-repeat fixed center/cover;
+}
+
+.active .toi ul li:hover {
+    color: white;
+}
+
+input[type="text"]::placeholder {
+    color: gray;
+}
+
+input[type="text"].rec {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: 15px;
+}
+
+.log {
+    background-color: rgba(255, 255, 255, 0.70);
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: fit-content;
+    padding: 50px;
+    margin-left: 25em;
+    text-align: center;
+    font-size: large;
+}
+
+.active {
+    background-color: blue;
+    border-radius: 0px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+input[type="text"] {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+input[type="password"] {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.tet {
+    text-align: center;
+}
+
+.inputo {
+    text-align: center;
+}
+
+#one {
+    border-radius: 10px;
+    padding: 20px;
+    border: 2px rgb(206, 193, 193) solid;
+    margin-bottom: 15px;
+}
+
+#two {
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px rgb(206, 193, 193) solid;
+    margin-bottom: 15px;
+}
+
+#three {
+    background-color: #4b4bf5;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+#four {
+    background-color: #0fbe35;
+    border-radius: 10px;
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+.toi {
+    font-size: 18px;
+    background-color: #4b4bf5;
+    color: white;
+    border: 0px;
+}
+
+.to {
+    font-size: 18px;
+    background-color: #0fbe35;
+    color: white;
+    border: 0px;
+}
+
+a {
+    text-decoration: none;
+}

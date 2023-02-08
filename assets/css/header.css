@@ -1,0 +1,242 @@
+header {
+    font-size: 20px;
+    width: 100%;
+    height: 10vh;
+}
+
+#tout {
+    height: auto;
+    /* background-color: rgba(41, 14, 14, 0.5); */
+    background-color: rgba(0, 0, 0, 0.752);
+    position: fixed;
+    width: 100%;
+}
+
+.bar-menu {
+    padding: 15px;
+    margin: auto;
+    font-size: 20px;
+    margin-top: -13px;
+}
+
+.bar-menu ul {
+    color: white;
+    list-style: none;
+    display: inline-flex;
+    margin-top: 15px;
+}
+
+.bar-menu ul li {
+    width: 230px;
+    margin-top: 10px;
+    margin-left: 15px;
+    padding: 10px;
+    transition: all 0.4s ease;
+}
+
+.bar-menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.bar-menu ul li :hover {
+    background: transparent;
+    /* border-radius: 3px; */
+}
+
+.enveloppe {
+    display: inline-flex;
+    width: 100%;
+}
+
+.bar-menu ul li:hover .menu1 {
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.bar-menu ul li:hover,
+.menu1 ul {
+    display: block;
+}
+
+.bar-menu ul li:hover,
+.menu1 ul li {
+    margin-left: -20px;
+    border-bottom: 1px solid white;
+    border-radius: 2px;
+    text-align: left;
+}
+
+.bar-menu ul li:hover,
+.menu1 ul li:last-child {
+    border-bottom: 0px;
+}
+
+.bar-menu ul li:hover,
+.menu1 ul li a :hover {
+    color: white;
+}
+
+.buto {
+    display: none;
+    background-color: transparent;
+}
+
+.bar-menu ul li:hover .buto {
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    height: fit-content;
+}
+
+.bar-menu ul li:hover {
+    padding: 0px;
+    text-align: center;
+    display: block;
+    height: fit-content;
+}
+
+.active {
+    background-color: rgb(219, 19, 52);
+    border-radius: 0px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.bar-menu ul li:hover {
+    padding: 20px;
+    margin-left: 1px;
+    border-bottom: 1px solid white;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    width: 100%;
+    color: white;
+    background-color: rgba(41, 14, 14, 0.5);
+}
+
+.conto {
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
+.log ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.log ul li a {
+    text-decoration: none;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-instagram,
+.fa-whatsapp {
+    font-size: 30px;
+}
+
+.dedans,
+.ded {
+    padding-left: 25px;
+}
+
+.velop {
+    display: flex;
+    padding: 5px;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.title {
+    text-align: center;
+}
+
+.add {
+    margin-top: 1cm;
+    text-align: center;
+}
+
+.Ajout {
+    align-items: center;
+    border-color: transparent;
+    background-color: rgba(218, 211, 211, 0.671);
+    text-align: center;
+    font-size: 4em;
+    width: 200px;
+    height: 200px;
+    color: rgb(20, 18, 18, 0.67);
+    border-radius: 60px;
+}
+
+title {
+    color: aliceblue;
+}
+
+.Ajout:hover {
+    background-color: rgba(190, 173, 173, 0.671);
+}
+
+.Ajout:active {
+    background-color: rgba(190, 173, 173, 0.671);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(20, 18, 18, 0.67);
+}
+
+.img1 {
+    float: left;
+    background: white;
+    margin-right: 1em;
+    margin-top: 1cm;
+    width: 20em;
+    height: 12cm;
+    color: rgb(0, 162, 255);
+    text-align: center;
+    font-weight: bold;
+}
+
+button {
+    border-radius: 40px / 80px;
+    margin-left: 2em;
+    margin-top: 2em;
+    font-size: small;
+}
+
+.bouton1 {
+    float: left;
+}
+
+.img {
+    /* margin-top: 2cm; */
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    /* border-style: dashed; */
+    /* width: 20cm; */
+    /* height: 30; */
+}
+
+a button {
+    border-radius: 30px;
+    margin: auto;
+    border: 2px rgb(206, 193, 193) solid;
+    background-color: rgb(196, 29, 29);
+    width: 3.5cm;
+    padding: 5px;
+    color: white;
+}

@@ -1,0 +1,70 @@
+.title
+{
+    text-align: center;
+}
+
+.img1 {
+    float: left;
+    background: white;
+    margin-right: 1em;
+    margin-top: 1cm;
+    width: 20em;
+    height: 13cm;
+    color: rgb(0, 162, 255);
+    text-align: center;
+    font-weight: bold;
+}
+
+button {
+    border-radius: 40px / 80px;
+    margin-left: 2em;
+    margin-top: 2em;
+    font-size: small;
+}
+
+
+.img {
+    /* margin-top: 2cm; */
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    /* border-style: dashed; */
+    /* width: 20cm; */
+    /* height: 30; */
+}
+a button {
+    border-radius: 30px;
+    margin: auto;
+    border: 2px rgb(206, 193, 193) solid;
+    background-color: rgb(196, 29, 29);
+    width: 3.5cm;
+    padding: 5px;
+    color: white;
+}
+.bouton_1
+{
+    margin-top: 5cm;
+}
+.bouton
+{
+    background-color: rgb(17, 182, 17);
+}
+.bouton:hover
+{
+    background-color: rgba(13, 141, 24, 0.89);
+}
+
+.bouton:active
+{
+    background-color: rgba(13, 141, 24, 0.89);
+}
+
+.bouton2:hover
+{
+    background-color: rgba(255, 0, 0, 0.89);
+}
+
+.bouton2:active
+{
+    background-color: rgba(255, 0, 0, 0.89);
+}
